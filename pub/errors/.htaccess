@@ -1,0 +1,10 @@
+Options None
+
+php_value display_errors on
+
+<FilesMatch "\.(xml|phtml)$">
+    Deny from all
+</FilesMatch>
+<IfModule mod_rewrite.c>
+    RewriteEngine Off
+</IfModule>
